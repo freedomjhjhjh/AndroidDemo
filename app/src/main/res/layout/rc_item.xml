@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:background="@drawable/chat_item"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:layout_marginTop="2dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="3dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="3dp">
+
+    <ImageView
+        android:id="@+id/chat_list_av"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"></ImageView>
+
+    <TextView
+        android:id="@+id/chat_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_200"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/chat_list_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="12sp"></TextView>
+
+</LinearLayout>

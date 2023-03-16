@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidDemo</string>
+    <string name="login_title">Shreade Demo</string>
+    <string name="login_nickname">昵称:</string>
+    <string name="login_nickname_hit">最长8个数字、字母</string>
+    <string name="login_room_name">房间号:</string>
+    <string name="login_room_name_hit">房间号</string>
+    <string name="login_service_url">服务器地址:</string>
+    <string name="login_service_url_hit">192.168.0.161</string>
+</resources>

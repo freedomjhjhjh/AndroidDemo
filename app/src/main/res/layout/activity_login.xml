@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:text="@string/login_title"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/teal_700"
+
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:gravity="center|center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:text="@string/login_nickname" />
+            <EditText
+                android:id="@+id/login_nick_name"
+                android:layout_weight="9"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_background"
+                android:inputType="text"
+                android:text="jackie"
+                android:hint="@string/login_nickname_hit"
+                android:textColorHint="@color/gray"
+                android:maxLength="8"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFJHIGKLMNOPQRSTUVWXYZ"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="10dip"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:text="@string/login_room_name" />
+            <EditText
+                android:id="@+id/login_room_name"
+                android:layout_weight="1"
+                android:background="@drawable/edit_text_background"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:hint="@string/login_room_name_hit"
+                android:textColorHint="@color/gray"
+                android:inputType="number"
+                android:text="5555"
+                android:maxLength="4"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            >
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dip"
+                android:gravity="center_vertical|right"
+                android:textSize="18sp"
+                android:text="@string/login_service_url" />
+            <EditText
+                android:id="@+id/login_service_url"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/login_service_url_hit"
+                android:text="@string/login_service_url_hit"
+                android:textColorHint="@color/gray"
+                android:inputType="textUri"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/login_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_weight="12"
+                android:background="@drawable/btn_border_yuan"
+                android:text="登  录"
+                android:textSize="22sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            >
+            <RadioButton
+                android:id="@+id/login_agree"
+                android:layout_width="26dip"
+                android:layout_height="22dip"
+                android:checked="true"
+                android:scaleX="0.7"
+                android:scaleY="0.7" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:text="同意" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                android:text="《服务条款》" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                android:text="《隐私政策》" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1.7"
+            android:layout_height="0dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
