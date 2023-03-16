@@ -2,9 +2,9 @@
 ## Androiad DEMO
 ——————————————————————————————————
 ##  APK生成位置，可直接下载
-```shell
-[app/release/app-release.apk](/app/release/app-release.apk#)
-```
+
+-  [app/release/app-release.apk](/app/release/#)
+
 
 ##  演示效果
 <p>
