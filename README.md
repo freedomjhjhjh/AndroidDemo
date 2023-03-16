@@ -4,7 +4,7 @@
 ##  APK生成位置，可直接下载
 
 -  [app/release/app-release.apk](/app/release/#)
--  服务端、web端 [https://gitee.com/jackie0527/web_build](https://gitee.com/jackie0527/web_build)
+-  服务端、web端 [https://github.com/freedomjhjhjh/web_build](https://github.com/freedomjhjhjh/web_build)
 
 ##  演示效果
 <p>
