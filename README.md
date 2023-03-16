@@ -4,7 +4,7 @@
 ##  APK生成位置，可直接下载
 
 -  [app/release/app-release.apk](/app/release/#)
-
+-  服务端、web端 [https://gitee.com/jackie0527/web_build](https://gitee.com/jackie0527/web_build)
 
 ##  演示效果
 <p>
@@ -14,8 +14,6 @@
 <img src="https://shreade.cn/image/p2.jpg" alt="demo" width="800" />
 </p>
 
-## 服务端、web端
-[https://gitee.com/jackie0527/web_build](https://gitee.com/jackie0527/web_build)
 
 ## 联系方式
 
