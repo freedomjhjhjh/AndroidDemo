@@ -3,7 +3,7 @@
 ——————————————————————————————————
 ##  APK生成位置，可直接下载
 ```shell
-[app/release/app-release.apk](/app/release)
+[app/release/app-release.apk](/app/release/app-release.apk)
 ```
 
 ##  演示效果
